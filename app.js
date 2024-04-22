@@ -15,9 +15,7 @@ app.use(
   })
 );
 
-app.use("/",(req,res)=>{
-  res.send("HELlo");
-})
+
 
 const userAuth = require("./routes/auth");
 app.use("/user/auth", userAuth);

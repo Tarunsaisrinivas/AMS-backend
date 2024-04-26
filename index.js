@@ -32,9 +32,9 @@ mongoose
     console.error(err);
   });
 
-// app.use("/",(req,res)=>{
-//   res.send("Hello");
-// })
+app.use("/",(req,res)=>{
+  res.send("Hello");
+})
 
 app.listen(3000, () => {
   console.log("Server is runnong on port 3000");
